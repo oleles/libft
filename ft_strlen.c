@@ -6,7 +6,7 @@
 /*   By: jeurico- <jeurico-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 02:16:03 by jeurico-          #+#    #+#             */
-/*   Updated: 2022/04/20 04:08:26 by jeurico-         ###   ########.fr       */
+/*   Updated: 2022/05/12 18:24:14 by jeurico-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *c)
 {
-	int	count;
+	size_t	count;
 
 	count = 0;
 	while (c[count] != '\0')

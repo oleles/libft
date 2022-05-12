@@ -6,7 +6,7 @@
 /*   By: jeurico- <jeurico-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 03:05:56 by jeurico-          #+#    #+#             */
-/*   Updated: 2022/04/17 21:50:21 by jeurico-         ###   ########.fr       */
+/*   Updated: 2022/05/12 22:56:26 by jeurico-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	{	
 		while (n > 0)
 		{
-			pntr_dest[n - 1] = pntr_src[n - 1];
 			n --;
+			pntr_dest[n] = pntr_src[n];
 		}
 	}
 	return (pntr_dest);
