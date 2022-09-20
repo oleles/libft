@@ -6,7 +6,7 @@
 /*   By: jeurico- <jeurico-@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/22 03:00:15 by jeurico-          #+#    #+#             */
-/*   Updated: 2022/05/08 20:54:31 by jeurico-         ###   ########.fr       */
+/*   Updated: 2022/07/07 16:10:40 by jeurico-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,6 @@ char	**ft_split(char const *s, char c)
 		}
 		count++;
 	}
-	p_row[pos] = '\0';
+	p_row[pos] = NULL;
 	return (p_row);
 }
